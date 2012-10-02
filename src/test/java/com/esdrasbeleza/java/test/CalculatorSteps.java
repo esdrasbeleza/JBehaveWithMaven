@@ -1,11 +1,13 @@
-package com.esdrasbeleza.java;
+package com.esdrasbeleza.java.test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
+import com.esdrasbeleza.java.Calculator;
 
 public class CalculatorSteps {
 
@@ -19,7 +21,7 @@ public class CalculatorSteps {
 		this.number = number; 
 	}
 	
-	@When("When we multiply it by $number")
+	@When("we multiply it by $number")
 	public void multiplyBy(int number) {
 		result = calculator.multiply(this.number, number);
 	}
