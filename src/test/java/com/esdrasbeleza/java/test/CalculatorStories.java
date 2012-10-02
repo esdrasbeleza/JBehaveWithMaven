@@ -29,7 +29,7 @@ public class CalculatorStories extends JUnitStories {
 	public Configuration configuration() {
 		return new MostUsefulConfiguration()
 		.useStoryLoader(new LoadFromClasspath(this.getClass()))
-		.useStoryReporterBuilder(new StoryReporterBuilder().withDefaultFormats().withFormats(Format.CONSOLE, Format.TXT));
+		.useStoryReporterBuilder(new StoryReporterBuilder().withDefaultFormats().withFormats(Format.CONSOLE, Format.HTML, Format.TXT));
 	}
 
 	@Override
