@@ -14,10 +14,10 @@ This project uses Maven to download its libraries and their dependencies. They a
 * *jbehave*, obviously
 * *jbehave-junit-runner*, so we can have a nice output when running our tests in Eclipse
 
-"Why Maven?"
-------------
+Why Maven?
+----------
 
 Because I already know how to use Maven.
 
-I hope I can move this project to gradle in a near future, so @marceloemanoel won't kill me.
+I hope I can move this project to gradle in a near future, so [@marceloemanoel](http://github.com/marceloemanoel) won't kill me.
 
